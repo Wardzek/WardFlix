@@ -1,0 +1,48 @@
+.banner {
+    .img-banner {
+        height: calc(100vh - 71px);
+        width: 100vw;
+    }
+}
+
+.about {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: normal;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.45) 2px 2px 4px;
+}
+
+p {
+    font-size: 22px;
+    line-height: normal;
+    text-shadow: rgba(0, 0, 0, 0.45) 2px 2px 4px;
+}
+
+button {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.6vw 1vw -0.4vw;
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    border-width: 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease 0s;
+}
+
+.avatar {
+    height: 100px;
+    margin-left: -30px;
+    position: absolute;
+    top: 130px;
+}
